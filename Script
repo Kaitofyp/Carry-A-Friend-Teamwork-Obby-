@@ -1,0 +1,334 @@
+local player = game.Players.LocalPlayer
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Kaito Hub | Carry A Friend! (Teamwork Obby)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+OrionLib:MakeNotification({
+	Name = "Welcome Back Player!",
+	Content = "🥹",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Section = Tab:AddSection({
+	Name = "| Made by Kaito_Fyp |"
+})
+
+local Tab = Window:MakeTab({
+	Name = "Lvl 1 Obby",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "wait 6 second when you click or tap the button"
+})
+
+Tab:AddButton({
+	Name = "Basics | +30 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (147.434662, 18.7622242, 264.115417, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+
+wait(5)	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-6361.55762, 241.547241, -561.574463, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Steps | +30 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (166.768097, 18.7809238, 264.093628, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (4774.7998, 268.694702, -963.946228, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Lava | +30 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (185.927689, 18.773756, 264.093689, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-232.483597, 211.765442, -6946.28711, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Climb | +60 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (205.226624, 18.773756, 264.093689, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (3584.99023, 225.967911, -5742.68457, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Colors | +60 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (224.525421, 18.7737541, 264.093719, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (6146.22998, 208.427841, 3859.98242, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Lvl 2 Obby",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "wait 6 second when you click or tap the button"
+})
+
+Tab:AddButton({
+	Name = "Spinner | +60 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (224.525482, 48.4978104, 242.899139, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+      		
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-5573.08691, 93.5568314, -7461.27734, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mazes | +60 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (166.628754, 48.4824066, 242.898956, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+      		
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-4731.57373, 169.512833, 6933.77686, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Boost | +60 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (185.927689, 48.4871063, 242.848663, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+      		
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-6296.34375, 251.026794, 3131.01221, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spikes | +90 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (205.226517, 48.4944153, 242.894135, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-14333.3701, 44.5990829, 2610.50684, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Portals | +90 Gems!!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (224.525482, 48.4978104, 242.899139, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-5573.08691, 93.5568314, -7461.27734, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Lvl 3 Obby",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "wait 6 second when you click or tap the button"
+})
+
+Tab:AddButton({
+	Name = "Rebound | +90 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (224.450211, 77.833786, 222.63681, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+      		
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-8803.38184, 160.892273, 6361.39355, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Wipeout | +90 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (205.226501, 77.8737564, 222.54155, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+      		
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (422.659302, 39.4251099, 7212.10205, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nonstop | +90 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (186.049622, 77.8737869, 222.67569, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+      		
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-3368.14502, 147.054382, 4074.07275, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fall | +90 Gems!",
+	Callback = function()
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (166.628754, 77.833786, 222.541534, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+      		
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-2852.17798, 101.617195, -3348.88574, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Lvl Event Obby | idk",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "wait 6 second when you click or tap the button"
+})
+
+Tab:AddButton({
+	Name = "Events!",
+	Callback = function()
+      		
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (279.41391, 18.3574905, 292.035645, -0.302857161, 0, 0.95303601, 0, 1, 0, -0.95303601, 0, -0.302857161)
+
+wait(5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-2830.2959, 274.343475, 914.744507, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Lvl 1 Egg",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Candy Egg | 120 Gem!",
+	Callback = function()
+      		
+wait(0.1)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Candy", 1 )
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Enchanted Egg | 300 Gem!",
+	Callback = function()
+      		
+wait(0.1)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Enchanted", 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Atlantis Egg | 1.26K Gems!",
+	Callback = function()
+      		
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Atlantis" , 1)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Lvl 2 Egg",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Elemental Egg | 5.97K Gems!",
+	Callback = function()
+      		
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Elemental", 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dino Egg | 23.3K Gems!",
+	Callback = function()
+      		
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Dino", 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pirate Egg | 85K Gems!",
+	Callback = function()
+      		
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Pirate", 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Godly Egg | 405K Gems!",
+	Callback = function()
+      		
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Godly", 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Anime Egg | 1.5M Gems!",
+	Callback = function()
+      		
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Anime", 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ninja Egg | 5M Gems!",
+	Callback = function()
+      		
+wait(0.2)
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer("Ninja", 1)
+  	end    
+})
